@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const folderPath = '/Users/luisgustavoresende/Desktop/performace-nodejs';
+const folderPath = '/';
 
 fs.readdir(folderPath, (err, files) => {
   if (err) {
